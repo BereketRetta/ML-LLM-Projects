@@ -1,0 +1,23 @@
+{
+    "name": "toolcraft",
+    "version": "0.1.0",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+      "start:api": "yarn workspace @toolcraft/api start",
+      "start:web": "yarn workspace @toolcraft/web start",
+      "dev": "concurrently \"yarn start:api\" \"yarn start:web\"",
+      "build": "yarn workspaces run build",
+      "test": "yarn workspaces run test",
+      "lint": "yarn workspaces run lint"
+    },
+    "devDependencies": {
+      "concurrently": "^8.2.2",
+      "typescript": "^5.3.3"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }

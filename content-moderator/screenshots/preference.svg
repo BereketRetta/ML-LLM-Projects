@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f5f5" rx="8" ry="8"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="220" height="500" fill="#ffffff" rx="8" ry="8"/>
+  <rect x="0" y="0" width="220" height="60" fill="#1976d2" rx="8" ry="8"/>
+  <text x="110" y="35" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">AI Moderator</text>
+  
+  <!-- Navigation Items -->
+  <text x="70" y="105" font-family="Arial" font-size="14" fill="#555">Dashboard</text>
+  <circle cx="35" y="105" r="10" fill="#9e9e9e"/>
+  
+  <rect x="20" y="130" width="180" height="40" fill="#e3f2fd" rx="4" ry="4"/>
+  <text x="70" y="155" font-family="Arial" font-size="14" fill="#1976d2">Preferences</text>
+  <circle cx="35" y="155" r="10" fill="#1976d2"/>
+  
+  <text x="70" y="205" font-family="Arial" font-size="14" fill="#555">History</text>
+  <circle cx="35" y="205" r="10" fill="#9e9e9e"/>
+  
+  <text x="70" y="255" font-family="Arial" font-size="14" fill="#555">Analytics</text>
+  <circle cx="35" y="255" r="10" fill="#9e9e9e"/>
+  
+  <!-- Main Content -->
+  <rect x="240" y="20" width="540" height="60" fill="#ffffff" rx="4" ry="4"/>
+  <text x="270" y="55" font-family="Arial" font-size="20" fill="#333" font-weight="bold">Moderation Preferences</text>
+  <text x="270" y="80" font-family="Arial" font-size="14" fill="#757575">Customize how content is moderated according to your preferences.</text>
+  
+  <!-- Global Sensitivity -->
+  <rect x="240" y="100" width="260" height="180" fill="#ffffff" rx="8" ry="8"/>
+  <text x="270" y="130" font-family="Arial" font-size="16" fill="#333" font-weight="bold">Global Sensitivity</text>
+  <text x="270" y="155" font-family="Arial" font-size="12" fill="#757575">Control the overall sensitivity of content moderation.</text>
+  
+  <line x1="270" y1="180" x2="470" y2="180" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="270" y1="180" x2="390" y2="180" stroke="#1976d2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="390" cy="180" r="10" fill="#1976d2"/>
+  
+  <text x="270" y="200" font-family="Arial" font-size="12" fill="#555">Less Strict</text>
+  <text x="470" y="200" font-family="Arial" font-size="12" fill="#555" text-anchor="end">More Strict</text>
+  
+  <text x="270" y="230" font-family="Arial" font-size="12" fill="#555">Current Setting: </text>
+  <text x="370" y="230" font-family="Arial" font-size="12" fill="#333" font-weight="bold">70%</text>
+  <rect x="420" y="220" width="60" height="20" fill="#1976d2" rx="10" ry="10"/>
+  <text x="450" y="235" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Balanced</text>
+  
+  <!-- Preference Profile -->
+  <rect x="520" y="100" width="260" height="180" fill="#ffffff" rx="8" ry="8"/>
+  <text x="550" y="130" font-family="Arial" font-size="16" fill="#333" font-weight="bold">Your Preference Profile</text>
+  
+  <rect x="550" y="145" width="100" height="70" fill="#ffffff" rx="4" ry="4" stroke="#e0e0e0"/>
+  <text x="600" y="170" font-family="Arial" font-size="12" fill="#757575" text-anchor="middle">Profile Version</text>
+  <text x="600" y="195" font-family="Arial" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">3</text>
+  
+  <rect x="660" y="145" width="100" height="70" fill="#ffffff" rx="4" ry="4" stroke="#e0e0e0"/>
+  <text x="710" y="170" font-family="Arial" font-size="12" fill="#757575" text-anchor="middle">Custom Rules</text>
+  <text x="710" y="195" font-family="Arial" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+  
+  <text x="550" y="240" font-family="Arial" font-size="12" fill="#555">Your preferences are continuously optimized based on feedback.</text>
+  <rect x="550" y="255" width="150" height="30" fill="#ffffff" stroke="#1976d2" rx="4" ry="4"/>
+  <text x="625" y="275" font-family="Arial" font-size="12" fill="#1976d2" text-anchor="middle">Reset to Defaults</text>
+  
+  <!-- Category Thresholds -->
+  <rect x="240" y="300" width="540" height="180" fill="#ffffff" rx="8" ry="8"/>
+  <text x="270" y="330" font-family="Arial" font-size="16" fill="#333" font-weight="bold">Category-Specific Thresholds</text>
+  <text x="270" y="355" font-family="Arial" font-size="12" fill="#757575">Fine-tune sensitivity for specific content categories.</text>
+  
+  <!-- Category 1 -->
+  <text x="270" y="385" font-family="Arial" font-size="14" fill="#555">Misinformation</text>
+  <line x1="270" y1="400" x2="470" y2="400" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="270" y1="400" x2="420" y2="400" stroke="#f44336" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="420" cy="400" r="8" fill="#f44336"/>
+  
+  <!-- Category 2 -->
+  <text x="550" y="385" font-family="Arial" font-size="14" fill="#555">Harassment</text>
+  <line x1="550" y1="400" x2="750" y2="400" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="550" y1="400" x2="650" y2="400" stroke="#ff9800" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="650" cy="400" r="8" fill="#ff9800"/>
+  
+  <!-- Category 3 -->
+  <text x="270" y="435" font-family="Arial" font-size="14" fill="#555">Self-harm</text>
+  <line x1="270" y1="450" x2="470" y2="450" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="270" y1="450" x2="370" y2="450" stroke="#4caf50" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="370" cy="450" r="8" fill="#4caf50"/>
+  
+  <!-- Category 4 -->
+  <text x="550" y="435" font-family="Arial" font-size="14" fill="#555">Sexual Content</text>
+  <line x1="550" y1="450" x2="750" y2="450" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="550" y1="450" x2="680" y2="450" stroke="#f44336" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="680" cy="450" r="8" fill="#f44336"/>
+</svg>

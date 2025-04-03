@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f7fa" rx="10" ry="10"/>
+  
+  <!-- App Frame -->
+  <rect x="10" y="10" width="780" height="480" rx="8" ry="8" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+  
+  <!-- Sidebar -->
+  <rect x="11" y="11" width="220" height="478" fill="#f8f9fa" rx="7" ry="7"/>
+  
+  <!-- Header in Sidebar -->
+  <rect x="11" y="11" width="220" height="60" fill="#1976d2" rx="7" ry="7"/>
+  <text x="40" y="45" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold">Toolcraft</text>
+  
+  <!-- New Conversation Button -->
+  <rect x="25" y="80" width="190" height="40" rx="5" ry="5" fill="#2196f3"/>
+  <text x="75" y="105" font-family="Arial" font-size="14" fill="#ffffff">New Conversation</text>
+  <circle cx="45" cy="100" r="10" fill="#ffffff"/>
+  <line x1="45" y1="95" x2="45" y2="105" stroke="#2196f3" stroke-width="2"/>
+  <line x1="40" y1="100" x2="50" y2="100" stroke="#2196f3" stroke-width="2"/>
+  
+  <!-- Conversation List -->
+  <rect x="25" y="140" width="190" height="50" rx="5" ry="5" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+  <text x="70" y="165" font-family="Arial" font-size="14" fill="#333333">Weather Analysis</text>
+  <text x="70" y="180" font-family="Arial" font-size="12" fill="#666666">4/5/2025</text>
+  <circle cx="45" cy="165" r="12" fill="#bbdefb"/>
+  <text x="41" y="170" font-family="Arial" font-size="16" fill="#1976d2">C</text>
+  
+  <rect x="25" y="200" width="190" height="50" rx="5" ry="5" fill="#e3f2fd" stroke="#bbdefb" stroke-width="2"/>
+  <text x="70" y="225" font-family="Arial" font-size="14" fill="#333333" font-weight="bold">Data Visualization</text>
+  <text x="70" y="240" font-family="Arial" font-size="12" fill="#666666">4/7/2025</text>
+  <circle cx="45" cy="225" r="12" fill="#bbdefb"/>
+  <text x="41" y="230" font-family="Arial" font-size="16" fill="#1976d2">C</text>
+  
+  <rect x="25" y="260" width="190" height="50" rx="5" ry="5" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+  <text x="70" y="285" font-family="Arial" font-size="14" fill="#333333">Image Analysis</text>
+  <text x="70" y="300" font-family="Arial" font-size="12" fill="#666666">4/3/2025</text>
+  <circle cx="45" cy="285" r="12" fill="#bbdefb"/>
+  <text x="41" y="290" font-family="Arial" font-size="16" fill="#1976d2">C</text>
+  
+  <!-- Main Content Area -->
+  <rect x="231" y="11" width="558" height="60" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+  <text x="250" y="45" font-family="Arial" font-size="18" fill="#333333" font-weight="bold">Data Visualization</text>
+  
+  <!-- Chat Messages Area -->
+  <rect x="231" y="71" width="558" height="338" fill="#ffffff"/>
+  
+  <!-- User Message -->
+  <rect x="480" y="90" width="280" height="60" rx="18" ry="18" fill="#1976d2"/>
+  <text x="500" y="120" font-family="Arial" font-size="14" fill="#ffffff" width="240">Can you help me visualize sales data by region?</text>
+  <text x="740" y="155" font-family="Arial" font-size="10" fill="#666666">10:42 AM</text>
+  
+  <!-- Assistant Message -->
+  <rect x="250" y="170" width="350" height="120" rx="18" ry="18" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="270" y="200" font-family="Arial" font-size="14" fill="#333333" width="310">I'd be happy to help you visualize sales data by region. What format is your data in? I can work with CSV, Excel, or JSON data.</text>
+  <text x="270" y="240" font-family="Arial" font-size="14" fill="#333333" width="310">I can create bar charts, pie charts, or maps depending on what would best represent your data.</text>
+  <text x="270" y="295" font-family="Arial" font-size="10" fill="#666666">10:43 AM</text>
+  
+  <!-- Tool Use Indicator -->
+  <rect x="250" y="305" width="120" height="24" rx="12" ry="12" fill="#ffffff" stroke="#bbdefb" stroke-width="1"/>
+  <circle cx="265" cy="317" r="8" fill="#bbdefb"/>
+  <text x="280" y="321" font-family="Arial" font-size="12" fill="#1976d2">chart_generator</text>
+  
+  <!-- Message Input Area -->
+  <rect x="241" y="419" width="538" height="60" rx="8" ry="8" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+  <rect x="251" y="429" width="458" height="40" rx="20" ry="20" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="271" y="453" font-family="Arial" font-size="14" fill="#999999">Type a message...</text>
+  
+  <!-- Send Button -->
+  <circle cx="739" cy="449" r="20" fill="#1976d2"/>
+  <path d="M730 449 L748 441 L748 457 Z" fill="#ffffff"/>
+  
+  <!-- Attachment Button -->
+  <circle cx="699" cy="449" r="20" fill="#f5f5f5"/>
+  <path d="M692 444 L706 444 L706 454 L692 454 Z" stroke="#666666" stroke-width="1.5" fill="none"/>
+  <line x1="692" y1="440" x2="706" y2="440" stroke="#666666" stroke-width="1.5"/>
+</svg>

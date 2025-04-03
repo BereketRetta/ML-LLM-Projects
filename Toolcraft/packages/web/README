@@ -1,0 +1,150 @@
+# Toolcraft Web Frontend
+
+This is the web frontend for the Toolcraft multimodal AI assistant application. It provides a user interface for interacting with the Toolcraft API.
+
+## Prerequisites
+
+- Node.js 18+
+- Yarn package manager
+- Toolcraft API running (on port 3001 by default)
+
+## Getting Started
+
+### Setting Up the Development Environment
+
+1. Navigate to the web package directory:
+
+```bash
+# Build the image
+docker build -t toolcraft-web -f packages/web/Dockerfile .
+
+# Run the container
+docker run -p 3000:80 toolcraft-web
+```
+
+Make sure the API container is also running and accessible to the web container.
+
+## Using Docker Compose
+
+The easiest way to deploy both the frontend and backend is with Docker Compose:
+
+```bash
+# Start all services
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop all services
+docker-compose down
+```
+
+## Troubleshooting
+
+### API Connection Issues
+
+If you're having trouble connecting to the API:
+
+1. Check that the API server is running on port 3001
+2. Verify that the proxy settings in `vite.config.ts` are correct
+3. Check the browser console for any CORS errors
+
+### Build Issues
+
+If you encounter build errors:
+
+1. Make sure the shared package is built: `yarn workspace @toolcraft/shared build`
+2. Clear node_modules and reinstall: `rm -rf node_modules && yarn install`
+3. Check for any TypeScript errors in your code
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+cd packages/web
+```
+
+2. Install dependencies (if you haven't already from the root):
+
+```bash
+yarn install
+```
+
+3. Make sure the shared package is built:
+
+```bash
+yarn workspace @toolcraft/shared build
+```
+
+4. Start the development server:
+
+```bash
+yarn start
+```
+
+This will start the development server on port 3000, with automatic hot reloading for code changes.
+
+### Building for Production
+
+To create a production build:
+
+```bash
+yarn workspace @toolcraft/web build
+```
+
+The build output will be in the `packages/web/dist` directory.
+
+## Project Structure
+
+```
+packages/web/
+├── src/               # Source code
+│   ├── components/    # Reusable UI components
+│   ├── contexts/      # React context providers
+│   ├── layouts/       # Page layouts
+│   ├── pages/         # Page components
+│   ├── services/      # Service layer (API clients)
+│   ├── App.tsx        # Main application component
+│   ├── index.tsx      # Application entry point
+│   └── theme.ts       # Material UI theme configuration
+├── public/            # Static assets
+├── vite.config.ts     # Vite configuration
+└── index.html         # HTML template
+```
+
+## Features
+
+- **Chat Interface**: Real-time conversation with the AI assistant
+- **File Upload**: Upload images and files for AI analysis
+- **Multimodal Support**: Handle text, images, and files
+- **Agent Transparency**: View the agent's thinking process and tools used
+- **Responsive Design**: Works on mobile and desktop devices
+
+## Development
+
+### API Integration
+
+The frontend communicates with the Toolcraft API. In development mode, API requests are proxied to the API server running on port 3001. You can configure this in `vite.config.ts`.
+
+### Adding New Features
+
+1. **New Components**: Add new UI components in the `src/components` directory
+2. **New Pages**: Add new pages in the `src/pages` directory
+3. **API Services**: Extend the API service in `src/services/api.ts`
+
+### Styling
+
+The application uses Material UI for styling and components. You can customize the theme in `src/theme.ts`.
+
+## Docker Deployment
+
+A Dockerfile is provided for containerized deployment. To build and run the Docker container:
+
+```bash

@@ -1,0 +1,82 @@
+Arguments: 
+  /Users/bekiretta/.nvm/versions/node/v18.18.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/bekiretta/miniforge3/envs/cylab/bin:/Users/bekiretta/.vscode/extensions/ms-python.python-2025.4.0-darwin-arm64/python_files/deactivate/zsh:/Users/bekiretta/.pyenv/versions/3.10.13/bin:/opt/homebrew/opt/openjdk@17/bin:/opt/homebrew/opt/openjdk@17/bin:/Users/bekiretta/google-cloud-sdk/bin:/opt/homebrew/opt/ruby/bin:/Users/bekiretta/miniforge3/condabin:/Users/bekiretta/.nvm/versions/node/v18.18.0/bin:/Users/bekiretta/.vscode/extensions/ms-python.python-2025.4.0-darwin-arm64/python_files/deactivate/zsh:/Users/bekiretta/.pyenv/versions/3.10.13/bin:/opt/local/bin:/opt/local/sbin:.:/Users/bekiretta/cmd:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/bekiretta/.cargo/bin:/Users/bekiretta/.vscode/extensions/ms-python.python-2025.4.0-darwin-arm64/python_files/deactivate/zsh:/Users/bekiretta/.pyenv/versions/3.10.13/bin:/Users/bekiretta/Library/Android/sdk/emulator:/Users/bekiretta/Library/Android/sdk/platform-tools:/Applications/Postgres.app/Contents/Versions/15/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOSPC: no space left on device, mkdir '/Users/bekiretta/Library/Caches/Yarn/v6/npm-eslint-plugin-testing-library-5.11.1-5b46cdae96d4a78918711c0b4792f90088e62d20-integrity'
+
+npm manifest: 
+  {
+      "name": "ai-content-moderator-frontend",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@mui/icons-material": "^5.11.16",
+        "@mui/lab": "^5.0.0-alpha.129",
+        "@mui/material": "^5.13.0",
+        "axios": "^1.4.0",
+        "chart.js": "^4.3.0",
+        "react": "^18.2.0",
+        "react-chartjs-2": "^5.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.43.9",
+        "react-query": "^3.39.3",
+        "react-router-dom": "^6.11.1",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4",
+        "yup": "^1.1.1"
+      },
+      "devDependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^14.0.0",
+        "@testing-library/user-event": "^14.4.3",
+        "@types/jest": "^29.5.1",
+        "@types/node": "^20.1.4",
+        "@types/react": "^18.2.6",
+        "@types/react-dom": "^18.2.4",
+        "typescript": "^5.0.4"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+        "extends": [
+          "react-app",
+          "react-app/jest"
+        ]
+      },
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
